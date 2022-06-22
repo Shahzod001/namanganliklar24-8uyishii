@@ -117,8 +117,8 @@ body{
     background-color: #fff;
     color: #7296ec;
 }
-.header-nav {
-}
+/* .header-nav {
+} */
  .site-navigation {
     margin-top: 30px;
 }
@@ -133,8 +133,8 @@ body{
 .nav-item {
     list-style: none;
 }  
-.nav-item{
-}
+/* .nav-item{
+} */
 .nav-link {
     text-decoration: none;
     font-weight: 500;
@@ -150,8 +150,8 @@ body{
 .advertising {
     padding-top: 40px;
 }
-.intro {
-} 
+/* .intro {
+}  */
 .intro-list {
     padding-top: 10px;
     list-style: none;
