@@ -107,25 +107,34 @@ body{
 .open-link{
     padding: 13px 20px;
     background: #7296ec;
+    border: 2px solid #7296ec;
     color: #fff;
     border-radius: 10px;
     text-decoration: none;
+    transition: 1s;
 }
-/* .openlink:hover{
-    
+.open-link:hover{
+    background-color: #fff;
+    color: #7296ec;
 }
 .header-nav {
-} */
-/* .site-navigation {
-} */
+}
+ .site-navigation {
+    margin-top: 30px;
+}
 .nav-list {    
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    list-style: none;
-    padding: 1px;
+    padding-bottom: 20px;
+    border-bottom: groove;
+    padding-left: 0px;
 }
-/* .nav-item {
-}  */
+.nav-item {
+    list-style: none;
+}  
+.nav-item{
+}
 .nav-link {
     text-decoration: none;
     font-weight: 500;
@@ -133,13 +142,18 @@ body{
     line-height: 21px;
     text-align: center;
     color: #7F7F7F;
-
+    transition: 1s;
 }
-/* .advertising {
+.nav-link:hover{
+    color: #7296ec;
+}
+.advertising {
+    padding-top: 40px;
 }
 .intro {
-} */
+} 
 .intro-list {
+    padding-top: 10px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -184,8 +198,9 @@ body{
     display: flex;
     padding-left: 10px;
 }
-/* .enter {
-} */
+.enter {
+    padding-top: 20px;
+}
 .enter-center {
     background-color: #FFD7BA;
     display: flex;
@@ -222,8 +237,9 @@ body{
     font-size: 24px;
     line-height: 28px;
     display: block;
-    margin: 30px 0px;
+    margin-top: 60px;
     color: #000000;
+    margin-bottom: 20px;
 }
 .news-box {
     display: flex;
@@ -282,10 +298,12 @@ body{
 /* .news-under-text-img {
 } */
 .news-contain {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50px;
+    width: 796px;
 }
 .link-more {
+    display: flex;
+    justify-content: center;
     font-weight: 500;
     font-size: 16px;
     color: #000;
@@ -301,19 +319,15 @@ body{
     margin-top: 16px;
     margin-bottom: 10px;
     padding-top: 20px;
-    padding-right: 17px;
     padding-bottom: 25px;
     padding-left: 17px;
-    border-radius: 15px;
-    background-color: #f6f6f6;
 }
 
 .news-right {
     width: 393px;
-    height: 502px;
     background: #F6F6F6;
     border-radius: 15px;
-    margin: 26px 0px;
+    margin: 26px 0px 79px 0px;
 }
 .right-item {
     list-style: none;
@@ -323,7 +337,7 @@ body{
 .news-hading {
 } */
 .advertising-olmos {
-    margin: 42px 2px;
+    margin-top: 100px;
 }
 /* .olmos-link {
 }
