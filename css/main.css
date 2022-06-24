@@ -150,6 +150,9 @@ body{
 .advertising {
     padding-top: 40px;
 }
+section{
+    padding-top: 50px;
+}
 /* .intro {
 }  */
 .intro-list {
@@ -194,9 +197,13 @@ body{
     margin: -24px 0px 0px 21px;
     padding-bottom: 10px;
 }
+.intro-list-under-texting{
+    margin: 0;
+}
 .intro-list-under-text {
-    display: flex;
-    padding-left: 10px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 .enter {
     padding-top: 20px;
@@ -233,45 +240,45 @@ body{
     justify-content: center;
 }
 .news-main {
+    padding-bottom: 20px;
+    margin-top: 0;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     display: block;
-    margin-top: 60px;
     color: #000000;
-    margin-bottom: 20px;
 }
 .news-box {
     display: flex;
-    margin: -32px -50px;
 }
 .news-left {
-    display: flex;
-    flex-direction: column;
+    margin-right: 10px;
+    /* display: flex;
+    flex-direction: column; */
 }
 .news-item {
     list-style: none;
+    margin: 0;
+    padding: 0;
 
 }
 .news-item-list {
+    margin-bottom: 10px;
     width: 797px;
+    padding: 20px 20px 20px 17px;
     background: #F6F6F6;
     border-radius: 15px;
     display: flex;
-    margin: -20px -40px;
     align-items: center;
-    margin: 10px;
 }
 .news-case {
-    margin-left: 17px;
+    margin-right: 15px;
 } 
 .news-picture {
     width: 210px;
     height: 165px;
-    margin: 20px 17px;
 }
 .news-shell {
-    margin: 20px 20px 20px 0px;
 } 
 .news-link {
     text-decoration: none;
@@ -285,6 +292,8 @@ body{
     display: contents;
 }
 .news-more-text {
+    margin: 0px;
+    margin-top: 10px;
     width: 535px;
     font-weight: 400;
     font-size: 16px;
@@ -294,12 +303,13 @@ body{
 .news-under-text {
     display: flex;
     align-items: center;
+    margin-top: 17px;
 }
-/* .news-under-text-img {
-} */
+ .news-under-text-img {
+    margin-right: 10px;
+} 
 .news-contain {
-    margin-left: 50px;
-    width: 796px;
+    margin-top: 15px;
 }
 .link-more {
     display: flex;
@@ -316,26 +326,30 @@ body{
     padding-right: 343px;
 }
 .news-text-left{
-    margin-top: 16px;
-    margin-bottom: 10px;
-    padding-top: 20px;
-    padding-bottom: 25px;
-    padding-left: 17px;
+    margin: 0;
 }
 
 .news-right {
-    width: 393px;
+    align-self: flex-start;
     background: #F6F6F6;
     border-radius: 15px;
-    margin: 26px 0px 79px 0px;
+    padding: 20px 17px 25px 17px;
 }
 .right-item {
+    margin: 0;
+    margin-top: 25px;
     list-style: none;
+    padding: 0;
 }
-/* .right-item-list {
+ .right-item-list {
 }
 .news-hading {
-} */
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+} 
 .advertising-olmos {
     margin-top: 100px;
 }
